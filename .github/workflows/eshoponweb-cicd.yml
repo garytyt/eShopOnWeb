@@ -3,7 +3,7 @@ name: eShopOnWeb Build and Test
 on: [push, workflow_dispatch]
 
 env:
-  RESOURCE_GROUP: rg-eshoponweb
+  RESOURCE_GROUP: rg-eshoponweb-GARYTYT
   LOCATION: westus2
   TEMPLATE_FILE: infra/webapp.bicep
   SUBSCRIPTION_ID: 23b5be63-e51e-4064-9559-af2aa74ab387
